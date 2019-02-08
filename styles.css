@@ -1,0 +1,20 @@
+.potato {
+    display:none;
+    width:200px;
+    height:200px;
+}
+.bye {
+    width:200px;   
+    height:200px;
+    display:flex;
+    }
+.hi{
+    justify-content:center;
+    display:flex;
+}
+body {
+    background-color: pink;
+}
+.bottle {
+    display:none;
+}
