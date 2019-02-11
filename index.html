@@ -21,6 +21,11 @@ body {
 }
 .bottle {
     display:none;
+}
+.done {
+width: 200px;    
+height:200px;
+display:none;
 }</style></head>
     <body>
     
@@ -32,7 +37,7 @@ body {
         <img class="apples" src="https://vignette.wikia.nocookie.net/spongebob/images/4/47/Arrgh%21_007.png/revision/latest?cb=20140622112659">
         </div>
         <img class="potato" src="https://vignette.wikia.nocookie.net/spongebob/images/f/fd/Arrgh%21_085.png/revision/latest?cb=20100920013908">
-        
+        <img class="done" src="https://memegenerator.net/img/instances/74379820/hurray.jpg">
         <button class="bottle"> Click on the X</button>
     
 
@@ -43,6 +48,13 @@ $(".apples").click(function() {
     $(".apples").css("display", "none");
     $(".hi").hide();
     $(".bottle").show();
+   
+    
 });
 
-</script></body></html>
+$(".potato").click(function(){
+    $(".bottle").css("display","block");
+    $(".potato").css("display","none");
+    $(".bottle").hide();
+     $(".done").show();
+});</script></body></html>
